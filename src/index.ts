@@ -36,7 +36,7 @@ async function main() {
       });
       console.log(`Found ${data.total_count} runs total.`);
       const runningWorkflows = data.workflow_runs.filter(
-        workflow => workflow.head_sha !== headSha && workflow.status !== 'completed'
+        workflow => workflow.status !== 'completed'
       );
       console.log(`Found ${runningWorkflows.length} runs in progress.`);
       for (const {id, head_sha, status} of runningWorkflows) {

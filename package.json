@@ -1,6 +1,6 @@
 {
-  "name": "cancel-workflow-action",
-  "version": "0.3.1",
+  "name": "cancel-all-previous-workflow-actions",
+  "version": "0.3.2",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
