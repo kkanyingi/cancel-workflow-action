@@ -1,8 +1,8 @@
 # Cancel All Previous Workflow Actions
 
-This is a Github Action that will cancel any previous runs that are not `completed` for a given workflow. Based off of [styfle/cancel-workflow-action](https://github.com/styfle/cancel-workflow-action).
+This is a Github Action that will cancel any previous runs that are not `completed` or `in_progress` for a given workflow. Based off of [styfle/cancel-workflow-action](https://github.com/styfle/cancel-workflow-action).
 
-This includes runs with a [status](https://developer.github.com/v3/checks/runs/#parameters-1) of `queued` or `in_progress`.
+This includes runs with a [status](https://developer.github.com/v3/checks/runs/#parameters-1) of `queued`.
 
 ## How does it work?
 
